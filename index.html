@@ -1,22 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
   <title>RenovaX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      color: #38bdf8;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #1e293b;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #0ea5e9, #38bdf8);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #0ea5e9;
+    }
+
+    .cta {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .cta a {
+      background: #38bdf8;
+      color: black;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #020617;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align: center;">
 
-<h1>RenovaX</h1>
-<h2>Soluciones completas en renovación, rápidas, limpias y sin complicaciones.</h2>
+<body>
 
-<hr>
+<header>
+  <h1>RenovaX</h1>
+  <p>Soluciones completas en renovación, rápidas, limpias y sin complicaciones</p>
+</header>
 
-<h3>Servicios</h3>
-<p>Pintura • Electricidad • Plomería • Reformas</p>
+<nav>
+  <a href="#">Inicio</a>
+  <a href="#">Servicios</a>
+  <a href="#">Contacto</a>
+</nav>
 
-<hr>
+<section class="hero">
+  <h2>Transformamos tu espacio con calidad profesional</h2>
+  <p>Un solo equipo para todos tus trabajos del hogar</p>
+</section>
 
-<h3>Contacto</h3>
-<p>Teléfono: TU NUMERO</p>
+<div class="container">
+
+  <h2 style="text-align:center;">Nuestros Servicios</h2>
+
+  <div class="services">
+    <div class="card">
+      <h3>🎨 Pintura</h3>
+      <p>Interior y exterior con acabados de alta calidad.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚡ Electricidad</h3>
+      <p>Instalaciones seguras y reparaciones rápidas.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚿 Plomería</h3>
+      <p>Solución de fugas, instalaciones y mantenimiento.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧱 Reformas</h3>
+      <p>Renovaciones completas adaptadas a tu necesidad.</p>
+    </div>
+  </div>
+
+</div>
+
+<section class="cta">
+  <h2>¿Necesitas un presupuesto?</h2>
+  <p>Contáctanos hoy mismo y recibe una respuesta rápida</p>
+  <a href="#">Llamar ahora</a>
+</section>
+
+<footer>
+  <p>© 2026 RenovaX - Todos los derechos reservados</p>
+  <p>Teléfono: TU NUMERO</p>
+</footer>
 
 </body>
 </html>
