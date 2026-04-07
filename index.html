@@ -10,53 +10,29 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f4f4;
-      color: #333;
     }
 
     header {
       background: #0f172a;
       color: white;
-      padding: 40px 20px;
+      padding: 40px;
       text-align: center;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 40px;
       color: #38bdf8;
-    }
-
-    header p {
-      font-size: 18px;
-      margin-top: 10px;
-    }
-
-    nav {
-      background: #1e293b;
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
+      font-size: 40px;
     }
 
     .hero {
-      padding: 60px 20px;
-      text-align: center;
       background: linear-gradient(to right, #0ea5e9, #38bdf8);
       color: white;
-    }
-
-    .hero h2 {
-      font-size: 32px;
+      padding: 50px;
+      text-align: center;
     }
 
     .container {
-      padding: 40px 20px;
+      padding: 40px;
       max-width: 1000px;
       margin: auto;
     }
@@ -71,28 +47,27 @@
       background: white;
       padding: 20px;
       border-radius: 10px;
+      text-align: center;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      text-align: center;
     }
 
-    .card h3 {
-      color: #0ea5e9;
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
     }
 
-    .cta {
-      background: #0f172a;
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
       color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .cta a {
-      background: #38bdf8;
-      color: black;
-      padding: 15px 25px;
+      padding: 15px 20px;
+      border-radius: 50px;
       text-decoration: none;
-      border-radius: 5px;
       font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
 
     footer {
@@ -100,7 +75,6 @@
       color: white;
       text-align: center;
       padding: 20px;
-      font-size: 14px;
     }
   </style>
 </head>
@@ -109,57 +83,56 @@
 
 <header>
   <h1>RenovaX</h1>
-  <p>Solutions complètes de rénovation, rapides, propres et sans complications</p>
+  <p>Solutions complètes de rénovation, rapides et professionnelles</p>
 </header>
 
-<nav>
-  <a href="#">Accueil</a>
-  <a href="#">Services</a>
-  <a href="#">Contact</a>
-</nav>
-
 <section class="hero">
-  <h2>Nous transformons vos espaces avec qualité professionnelle</h2>
-  <p>Une seule équipe pour tous vos travaux</p>
+  <h2>Nous transformons votre maison avec qualité</h2>
+  <p>Peinture • Électricité • Plomberie • Rénovation</p>
 </section>
 
 <div class="container">
 
-  <h2 style="text-align:center;">Nos Services</h2>
+  <h2>Nos Services</h2>
 
   <div class="services">
     <div class="card">
       <h3>🎨 Peinture</h3>
-      <p>Intérieure et extérieure avec finitions de qualité.</p>
+      <p>Finitions propres et professionnelles</p>
     </div>
 
     <div class="card">
       <h3>⚡ Électricité</h3>
-      <p>Installations sûres et réparations rapides.</p>
+      <p>Installations et réparations rapides</p>
     </div>
 
     <div class="card">
       <h3>🚿 Plomberie</h3>
-      <p>Réparation de fuites et installations complètes.</p>
+      <p>Réparation de fuites et installations</p>
     </div>
 
     <div class="card">
       <h3>🧱 Rénovation</h3>
-      <p>Travaux complets adaptés à vos besoins.</p>
+      <p>Travaux complets sur mesure</p>
     </div>
+  </div>
+
+  <h2>Nos Réalisations</h2>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952" alt="travaux">
+    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="renovation">
   </div>
 
 </div>
 
-<section class="cta">
-  <h2>Besoin d’un devis ?</h2>
-  <p>Contactez-nous dès aujourd’hui pour une réponse rapide</p>
-  <a href="#">Appeler maintenant</a>
-</section>
+<a class="whatsapp" href="https://wa.me/33626546535" target="_blank">
+  WhatsApp
+</a>
 
 <footer>
-  <p>© 2026 RenovaX - Tous droits réservés</p>
-  <p>Téléphone : +330626546535</p>
+  <p>© 2026 RenovaX</p>
+  <p>Téléphone : TON NUMÉRO</p>
 </footer>
 
 </body>
